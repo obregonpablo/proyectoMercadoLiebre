@@ -1,0 +1,283 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+} 
+
+header {
+    background-color: #EAC926;
+}
+
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+.buscador{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    text-align: center;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
+
+header .buscador .input{
+    background-color: #fff; 
+    border: 1px solid #000;
+    color: #666;
+    width: 200px;
+}
+
+header .buscador .lupa i{
+    background-color: #fff; 
+    border: 1px solid #000;
+    color: #666;
+}
+
+header div.burguer-menu i{
+    color: #fff;
+    background-color: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+
+header div.burguer-menu {
+    text-align: center;
+}
+
+
+.banner-img{
+    width: 100vw;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 90vw;
+    }
+
+main section article {
+    margin-bottom: 10px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+.info-article{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.precio {
+    width: 30%;
+}
+
+.descuento {
+    width: 70%;
+}
+
+
+main section article div i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.desc-prod {
+    display: none;
+}
+
+#formulario-registro{
+    background-color: #ebebeb;
+}
+
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}  
+
+form .div{
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+    align-items: center;
+
+}
+
+.text-field{
+    padding: 5px;
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botonForm{
+    width: 100%;
+}
+
+.botonSubmit{
+    background-color: #39b54a;
+    color: #FFF;
+}
+
+.botonReset{
+    background-color: red;
+    color: #FFF;
+}
+
+.login{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.body-login{
+    background-color: #ebebeb;
+}
+
+.botonEnviar{
+    background-color: #1259c3;
+    padding: 12px;
+    border: none;
+    color: #FFF;
+    width: 100%;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+@media (min-width: 361px) {
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+     
+
+    .desc-prod {
+        display: block;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+        
+    header div.burguer-menu {
+       display: none;
+    }
+}
+
+@media (min-width: 769px){
+    main section article {
+        width: 22.5%;
+    }
+
+}
+
+main section article h4{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+main section article h3{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articleFooter{
+    width: 33.3%;
+}
+
+footer div.iconos{
+    font-size: 25px;
+    color: #1259c3;
+    text-align: center;
+    padding: 15px;
+}
+
+footer div h3{
+    text-align: center;
+}
+
+footer div p{
+    text-align: center;
+}
+
