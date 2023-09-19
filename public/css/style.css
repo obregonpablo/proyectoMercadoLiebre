@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -17,24 +16,22 @@ header {
 .top-header {
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 1%;
 }
 
 .logo{
-    width: 50%;
+    width: 80%;
     padding: 10px;
 }
 
 .buscador{
-    width: 50%;
+    width: 55%;
     padding: 5px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
-header p {
-    text-align: center;
-}
+
 
 header nav {
     display: none;
@@ -57,22 +54,28 @@ header nav ul {
     width: 42%;
 }
 
-header .buscador .input{
+.lupa{
+    height: 21px;
+    border: 0;
+    cursor: pointer;
     background-color: #fff; 
-    border: 1px solid #000;
+    border: 0;
     color: #666;
-    width: 200px;
 }
 
-header .buscador .lupa i{
+header .buscador .input{
     background-color: #fff; 
-    border: 1px solid #000;
+    border: 0;
+    height: 21px;
+    width: 70%;
     color: #666;
 }
+
 
 header div.burguer-menu i{
     color: #fff;
     background-color: #1259c3;
+    cursor: pointer;
     font-size: 20px;
     padding: 10px;
     margin: 10px 0px 20px 0px;
@@ -86,6 +89,7 @@ header div.burguer-menu {
 
 
 .banner-img{
+    height: 30vh;
     width: 100vw;
 }
 
@@ -201,6 +205,7 @@ form .div{
     background-color: #1259c3;
     padding: 12px;
     border: none;
+    cursor: pointer;
     color: #FFF;
     width: 100%;
 }
@@ -234,12 +239,18 @@ form .div{
     header div.burguer-menu {
        display: none;
     }
+
+    footer{
+        display: flex;
+        ;
+    }
 }
 
 @media (min-width: 769px){
     main section article {
         width: 22.5%;
     }
+
 
 }
 
@@ -260,7 +271,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 5%;
 }
+
+
 
 .articleFooter{
     width: 33.3%;
@@ -278,6 +292,12 @@ footer div h3{
 }
 
 footer div p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.copy{
+    display: flex;
     text-align: center;
 }
 
